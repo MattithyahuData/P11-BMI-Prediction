@@ -13,7 +13,8 @@
 
 
 [Kaggle Data source link](https://www.kaggle.com/yasserh/bmidataset)
-[Data Collection](Code/P11 Code.ipynb)
+## [Data Collection](/Code/P11 Code.ipynb)
+## [Data Collection](test.py)
 Source: Kaggle | Webscraping AVG Rupees/GBP conversion data  
 *	Year	
 *   Selling_Price	
