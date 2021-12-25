@@ -13,7 +13,7 @@
 
 
 [Kaggle Data source link](https://www.kaggle.com/yasserh/bmidataset)
-## [Data Collection](Code/P11 Code.ipynb)
+## [Data Collection](Code/TESTER.ipynb)
 ## [Data Collection](C:\Users\matti\OneDrive\MyProjects\Projects\P11 BMI Prediction\Code\P11 Code.ipynb)
 ## [Data Collection](Data/test.py)
 
