@@ -13,10 +13,9 @@
 
 
 [Kaggle Data source link](https://www.kaggle.com/yasserh/bmidataset)
-## [Data Collection](Code/TESTER.ipynb)
-## [Data Collection](C:\Users\matti\OneDrive\MyProjects\Projects\P11 BMI Prediction\Code\P11 Code.ipynb)
-## [Data Collection](Data/test.py)
+<br>
 
+## [Data Collection](Code/P11_Code.ipynb)
 Source: Kaggle | Webscraping AVG Rupees/GBP conversion data  
 *	Year	
 *   Selling_Price	
