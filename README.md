@@ -11,6 +11,7 @@
 [**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, XGBOOST, selenium, flask, json, pickle, lxml**   
 
 ## [Data](Data/bmi.csv) 
+A little bit about the data 
 [Data source link](https://www.kaggle.com/yasserh/bmidataset)
 <br>
 
