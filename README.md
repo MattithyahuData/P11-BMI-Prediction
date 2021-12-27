@@ -8,7 +8,7 @@
 ## Resources Used
 **Python 3.8, SSIS, SQL Server, Power BI, PowerPoint, AWS** 
 
-[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, XGBOOST, selenium, flask, json, pickle, lxml**   
+[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc,ipywidgets,                 XGBOOST, selenium, flask, json, pickle, lxml**   
 
 ## [Data](Data/bmi.csv) 
 A little bit about the data 
@@ -39,6 +39,7 @@ After I had sraped and downloaded all the data I needed, I needed to clean it up
 *	Made a new column for company state 
 *	Added a column for if the job was at the company’s headquarters 
 *	Transformed founded date into age of company 
+*   [NHS Obesity Definition](https://www.nhs.uk/conditions/obesity/#:~:text=18.5%20to%2024.9%20means%20you,means%20you're%20severely%20obese)
 
 
 ## [Data Warehousing](Code/P11_Code.ipynb)
