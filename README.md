@@ -1,4 +1,4 @@
-# 🚘 BMI Prediction: Project Overview 
+# 🏋 BMI Calculator: Project Overview 
 * End to end project reasearching the effects certain attributes have on the value of a car
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing API using flask 
