@@ -2,6 +2,7 @@
 * End to end project reasearching the effects certain attributes have on the value of a car
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing API using flask 
+* Created a REST API using flask web server
 
 [View Deployed Model](https://carsalepricecalc.herokuapp.com/)
 
