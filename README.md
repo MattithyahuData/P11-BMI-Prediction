@@ -8,7 +8,7 @@
 [View Deployed Model](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 
 ## Resources Used
-**Python 3.8, SQL Server, Power BI, PowerPoint, AWS** 
+**Python 3.8, SQL Server, Power BI, PowerPoint,WinSCP, PuTTY, Ubuntu, AWS** 
 
 [**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc,ipywidgets,                 XGBOOST, selenium, flask, json, pickle, lxml**   
 
@@ -70,6 +70,7 @@ I looked at the distributions of the data and the value counts for the various c
 
 
 ## [Data Visualisation]()
+[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjJkN2VjOTctODM2ZC00YWY1LThlNTctN2JjYjQxNzk0NTUwIiwidCI6IjYyZWE3MDM0LWI2ZGUtNDllZS1iZTE1LWNhZThlOWFiYzdjNiJ9)
 AAAAAAAAAAAAAAAAAAAAAAAAA
 
 *	Made a new column for company state 
@@ -112,6 +113,7 @@ In this step, I built a flask API endpoint that was hosted on a local webserver 
 
 ## Evaluation 
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
+Next time explore Github deployment 
 
 
 ## Project Management (Agile | Scrum)
