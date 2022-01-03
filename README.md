@@ -3,11 +3,12 @@
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing API using flask 
 * Created a REST API using flask web server
+* Deployed App in AWS EC2 Instance 
 
-[View Deployed Model](https://carsalepricecalc.herokuapp.com/)
+[View Deployed Model](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 
 ## Resources Used
-**Python 3.8, SSIS, SQL Server, Power BI, PowerPoint, AWS** 
+**Python 3.8, SQL Server, Power BI, PowerPoint, AWS** 
 
 [**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc,ipywidgets,                 XGBOOST, selenium, flask, json, pickle, lxml**   
 
