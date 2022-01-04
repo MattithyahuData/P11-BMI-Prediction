@@ -26,19 +26,19 @@ def predict():
 
         if bmi_predict == 0:
             bmiclass = 'Underweight'
-            return render_template("index.html", prediction_text ="Your BMI is {a}. You are in the {b} range.".format(a=bmi_predict, b = bmiclass), information_text = "BMI weight ranges \ Less than 18.5 = Underweight \\n Between 18.5 - 24.9 = Healthy Weight \n Between 25 - 29.9 = Overweight\n Over 30 = Obese")
+            return render_template("index.html", prediction_text ="Your BMI is {a}. You are in the {b} range.".format(a=bmi_predict, b = bmiclass), information_text = "BMI weight ranges", information_text1 = "Less than 18.5 = Underweight", information_text2 = "Between 18.5 - 24.9 = Healthy Weight", information_text3 = "Between 25 - 29.9 = Overweight",information_text4 = "Between 30 - 39.9 = Obese",information_text5 = "Over 40 = Severely Obese", information_text6="https://www.nhs.uk/conditions/obesity/")
         elif bmi_predict == 1:
             bmiclass = 'Normal weight'
-            return render_template("index.html", prediction_text ="Your BMI is {a}. \n\n\n\n You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
+            return render_template("index.html", prediction_text ="Your BMI is {a}. You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
         elif bmi_predict == 2:
             bmiclass = 'Overweight'
-            return render_template("index.html", prediction_text ="Your BMI is {a}. \n\n\n\n You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
+            return render_template("index.html", prediction_text ="Your BMI is {a}. You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
         elif bmi_predict == 3:
             bmiclass = 'Obese'
-            return render_template("index.html", prediction_text ="Your BMI is {a}. \n\n\n\n You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
+            return render_template("index.html", prediction_text ="Your BMI is {a}. You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
         elif bmi_predict == 4:
             bmiclass = 'Severly Obese'
-            return render_template("index.html", prediction_text ="Your BMI is {a}. \n\n\n\n You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
+            return render_template("index.html", prediction_text ="Your BMI is {a}. You are in the {b} range.".format(a=bmi_predict, b = bmiclass))
         else:
             return 'UNKNOWN'
 

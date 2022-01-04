@@ -3,7 +3,7 @@
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 * Built a client facing API using flask 
 * Created a REST API using flask web server
-* Deployed App in AWS EC2 Instance 
+* Deployed App in AWS EC2 Instance  
 
 [View Deployed Model](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 
