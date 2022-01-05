@@ -10,7 +10,7 @@
 ## Resources Used
 **Python 3.8, SQL Server, Power BI, PowerPoint,WinSCP, PuTTY, Ubuntu, AWS** 
 
-[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc,ipywidgets,                 XGBOOST, selenium, flask, json, pickle, lxml**   
+[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc,ipywidgets, kaggle,pyodbc,                 XGBOOST, selenium, flask, json, pickle, lxml**   
 
 ## [Data](Data/bmi.csv) 
 A little bit about the data 
