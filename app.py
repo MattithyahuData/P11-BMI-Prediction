@@ -1,6 +1,10 @@
-import pickle
-from flask import Flask, request, jsonify, render_template # For reading URL parameter 
+# Importing project dependencies 
 
+# Model importing
+import pickle
+
+# Webapp creation and model use 
+from flask import Flask, request, jsonify, render_template # For reading URL parameter 
 
 
 # Creating flask app
