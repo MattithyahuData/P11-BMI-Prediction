@@ -3,17 +3,18 @@
 # Model importing
 import pickle
 
-# Webapp creation and model use 
-from flask import Flask, request, jsonify, render_template # For reading URL parameter 
+# Webapp creation and model use template rendering 
+from flask import Flask, request, jsonify, render_template 
 
 
-# Creating flask app
-app = Flask(__name__) # Initiating app
+# Creating flask app / Initiating app
+app = Flask(__name__) 
 
 # Load pickle model
 model = pickle.load(open("qda_bmi_model.pkl", "rb"))
 
 # Define the home page
+# route() decorator to tell Flask what URL should trigger our function.
 @app.route("/",methods=['GET'])
 def Home():
     return render_template("index.html")
@@ -52,5 +53,6 @@ def predict():
 
 if __name__ == "__main__":
     #app.run(debug=True)
+    #By enabling debug mode, the server will automatically reload if code changes, and will show an interactive debugger in the browser if an error occurs during a request.
     app.run(host='0.0.0.0', port=8080)
 
