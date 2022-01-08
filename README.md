@@ -17,7 +17,7 @@
 Data loaded through kaggle API
 [Data source link](https://www.kaggle.com/yasserh/bmidataset)
 [Data](Data/bmi.csv)
-*  Rows:500 | Columns: 4
+*  Rows: 500 | Columns: 4
     *   Gender  
     *   Height  
     *   Weight  
@@ -40,14 +40,11 @@ I warehouse all data in a SQL Server instance for later use and reference.
 ## [Exploratory data analysis](Code/P11_Code.ipynb) 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the analysis.
 *   I looked at the distribution of BMI by class and gender
-![alt text](images\bmi_distribution.png)
 <img src="images/bmi_distribution.png" />
-![alt text](images\bmi_classdistribution.png)
 <img src="images/bmi_classdistribution.png" />
-![alt text](images\bmi_genderdistribution.png)
 <img src="images/bmi_genderdistribution.png" />
+
 *   I looked at the correlation the features have
-![alt text](images\bmi_correlation.png)
 <img src="images/bmi_correlation.png" />
 
 ## [Data Visualisation & Analytics](https://app.powerbi.com/view?r=eyJrIjoiMjJkN2VjOTctODM2ZC00YWY1LThlNTctN2JjYjQxNzk0NTUwIiwidCI6IjYyZWE3MDM0LWI2ZGUtNDllZS1iZTE1LWNhZThlOWFiYzdjNiJ9&pageName=ReportSection)
@@ -82,7 +79,7 @@ I tried eight different models:
 *   **Gaussian NB** 
 *   **Quadratic Discriminant Analysis** 
 
-![alt text](images\Crossvalidation.png)
+
 <img src="images/Crossvalidation.png" />
 
 ## Model performance
