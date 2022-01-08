@@ -1,4 +1,4 @@
-🏋 BMI Calculator: Project Overview 
+# 🏋 BMI Calculator: Project Overview 
 * End to end project researching the effects of BMI and its distribution in gender classes
 * Optimised best performing Supervised Learning algorithms using GridsearchCV to obtain optimum performance
 * Built a client facing API using flask 
@@ -41,10 +41,14 @@ I warehouse all data in a SQL Server instance for later use and reference.
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the analysis.
 *   I looked at the distribution of BMI by class and gender
 ![alt text](images\bmi_distribution.png)
+<img src="images/bmi_distribution.png" />
 ![alt text](images\bmi_classdistribution.png)
+<img src="images/bmi_classdistribution.png" />
 ![alt text](images\bmi_genderdistribution.png)
+<img src="images/bmi_genderdistribution.png" />
 *   I looked at the correlation the features have
 ![alt text](images\bmi_correlation.png)
+<img src="images/bmi_correlation.png" />
 
 ## [Data Visualisation & Analytics](https://app.powerbi.com/view?r=eyJrIjoiMjJkN2VjOTctODM2ZC00YWY1LThlNTctN2JjYjQxNzk0NTUwIiwidCI6IjYyZWE3MDM0LWI2ZGUtNDllZS1iZTE1LWNhZThlOWFiYzdjNiJ9&pageName=ReportSection)
 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjJkN2VjOTctODM2ZC00YWY1LThlNTctN2JjYjQxNzk0NTUwIiwidCI6IjYyZWE3MDM0LWI2ZGUtNDllZS1iZTE1LWNhZThlOWFiYzdjNiJ9)
@@ -79,6 +83,7 @@ I tried eight different models:
 *   **Quadratic Discriminant Analysis** 
 
 ![alt text](images\Crossvalidation.png)
+<img src="images/Crossvalidation.png" />
 
 ## Model performance
 The Quadratic Discriminant Analysis model outperformed the other approaches on the test and validation sets. 
