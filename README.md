@@ -8,12 +8,15 @@
 [View Deployed Model](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 
 ## Resources Used
-**Python 3.8, SQL Server, Power BI, PowerPoint, WinSCP, PuTTY, Ubuntu, AWS** 
+**Python 3.8, SQL Server, Power BI, PowerPoint, WinSCP, PuTTY, Ubuntu, AWS EC2** 
 
 [**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, ipywidgets, kaggle,  pyodbc, XGBOOST, selenium, flask, json, pickle, lxml**   
 
 ## [Data Collection](Code/P11_Code.ipynb)
-Data loaded through kaggle API
+Data loaded through kaggle API <br>
+```
+!kaggle datasets download -d yasserh/bmidataset -p ..\Data --unzip 
+```
 [Data source link](https://www.kaggle.com/yasserh/bmidataset)
 [Data](Data/bmi.csv)
 *  Rows: 500 | Columns: 4
