@@ -95,7 +95,7 @@ Using the best parameters, I improved the model accuracy by **1.25%**
 ## [Deployment](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 I built a flask API endpoint that was hosted on a local webserver before AWS EC2 deployment. The API endpoint takes in a request value; height and weight and returns predicted BMI index. I also optimised and formatted the frontend using HTML and CSS. 
 
-## [Evaluation](Presentation/P11 Presentation.pptx) 
+## [Evaluation](Presentation/P11Presentation.pptx) 
 This project was to show the end-to-end process possible in a data science project. 
 *   WWW
     *   The end-to-end process
