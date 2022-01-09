@@ -65,7 +65,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAA
 *   Added a column for if the job was at the company’s headquarters 
 *   Transformed founded date into age of company  -->
 
-## ML/DL Model Building 
+## [ML/DL Model Building](Code/P11_Code.ipynb)
 
 I tried eight different models and evaluated them using initially using accuracy_score and then MSE/RMSE. I chose MSE and RMSE because it is sensitive to outliers, punishes larger errors and is relatively easy to interpret.   
 
@@ -82,11 +82,11 @@ I tried eight different models:
 
 <img src="images/Crossvalidation.png" />
 
-## Model performance
+## [Model performance](Code/P11_Code.ipynb)
 The Quadratic Discriminant Analysis model outperformed the other approaches on the test and validation sets. 
 *   **Quadratic Discriminant Analysis** : Accuracy = 96% 
 
-## Model Optimisation and Evaluation
+## [Model Optimisation and Evaluation](Code/P11_Code.ipynb)
 In this step, I used GridsearchCV to find the best parameters to optimise the performance of the model.
 Using the best parameters, I improved the model accuracy by **1.25%**
 
@@ -95,7 +95,7 @@ Using the best parameters, I improved the model accuracy by **1.25%**
 ## [Deployment](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 I built a flask API endpoint that was hosted on a local webserver before AWS EC2 deployment. The API endpoint takes in a request value; height and weight and returns predicted BMI index. I also optimised and formatted the frontend using HTML and CSS. 
 
-## Evaluation 
+## [Evaluation](Presentation\P11 Presentation.pptx) 
 This project was to show the end-to-end process possible in a data science project. 
 *   WWW
     *   The end-to-end process
@@ -104,7 +104,7 @@ This project was to show the end-to-end process possible in a data science proje
     *   Better project management and planning would have made this project faster
     *   Explore GitHub pages deployment through AWS 
 
-## Project Management (Agile | Scrum)
+## [Project Management (Agile | Scrum)](https://www.atlassian.com/software/jira)
 * Resources used
     * Jira
     * Confluence
@@ -112,7 +112,7 @@ This project was to show the end-to-end process possible in a data science proje
 
 ## Questions and See more projects    
 
-* #### [See more projects here](https://mattithyahutech.co.uk/)
-* #### [Contact me here](mailto:theanalyticsolutions@gmail.com) 
+* ### [See more projects here](https://github.com/MattithyahuData?tab=repositories)
+* ### [Contact me here](mailto:theanalyticsolutions@gmail.com) 
 
 
