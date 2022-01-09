@@ -12,7 +12,6 @@
 
 [**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, ipywidgets, kaggle,  pyodbc, XGBOOST, selenium, flask, json, pickle, lxml**   
 
-
 ## [Data Collection](Code/P11_Code.ipynb)
 Data loaded through kaggle API
 [Data source link](https://www.kaggle.com/yasserh/bmidataset)
@@ -36,7 +35,6 @@ I warehouse all data in a SQL Server instance for later use and reference.
 *   ETL in python to SQL Server Database.
 *   Formatted column headers to SQL compatibility.  
 
-
 ## [Exploratory data analysis](Code/P11_Code.ipynb) 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the analysis.
 *   I looked at the distribution of BMI by class and gender
@@ -49,9 +47,8 @@ I looked at the distributions of the data and the value counts for the various c
 
 ## [Data Visualisation & Analytics](https://app.powerbi.com/view?r=eyJrIjoiMjJkN2VjOTctODM2ZC00YWY1LThlNTctN2JjYjQxNzk0NTUwIiwidCI6IjYyZWE3MDM0LWI2ZGUtNDllZS1iZTE1LWNhZThlOWFiYzdjNiJ9&pageName=ReportSection)
 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjJkN2VjOTctODM2ZC00YWY1LThlNTctN2JjYjQxNzk0NTUwIiwidCI6IjYyZWE3MDM0LWI2ZGUtNDllZS1iZTE1LWNhZThlOWFiYzdjNiJ9)
-*   I created a correlation matrix to show the relationship between height, weight and BMI
-*   I visualised the distribution of bmi class between genders, and found that more men are severly obese than woman generally. 
-
+*   I created a correlation matrix to show the relationship between height, weight, and BMI
+*   I visualised the distribution of bmi class between genders and found that more men are severely obese than woman generally. 
 
 ## [Feature Engineering](Code/P11_Code.ipynb)
 I transformed the categorical variable(s) 'gender' into dummy variables. I also split the data into train and tests sets with a test size of 20%.
@@ -79,7 +76,6 @@ I tried eight different models:
 *   **Gaussian NB** 
 *   **Quadratic Discriminant Analysis** 
 
-
 <img src="images/Crossvalidation.png" />
 
 ## [Model performance](Code/P11_Code.ipynb)
@@ -95,8 +91,12 @@ Using the best parameters, I improved the model accuracy by **1.25%**
 ## [Deployment](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 I built a flask API endpoint that was hosted on a local webserver before AWS EC2 deployment. The API endpoint takes in a request value; height and weight and returns predicted BMI index. I also optimised and formatted the frontend using HTML and CSS. 
 
-## [Evaluation](Presentation/P11Presentation.pptx) 
-This project was to show the end-to-end process possible in a data science project. 
+## [Model Evaluation](Code/P11_Code.ipynb)
+*   Confusion matrix showing accuracy score of test set and the 97.25% accuracy achieved by the model 
+<img src="images/Confusionmatrix.png" />
+
+
+## [Project Evaluation](Presentation/P11Presentation.pptx) 
 *   WWW
     *   The end-to-end process
     *   Deployment and sharing of work 
@@ -114,5 +114,6 @@ This project was to show the end-to-end process possible in a data science proje
 
 * ### [See more projects here](https://github.com/MattithyahuData?tab=repositories)
 * ### [Contact me here](mailto:theanalyticsolutions@gmail.com) 
+
 
 
