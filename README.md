@@ -1,6 +1,6 @@
 # 🏋 BMI Calculator: Project Overview 
 * End to end project researching the effects of BMI and its distribution in gender classes
-* Optimised best performing Supervised Learning algorithms using GridsearchCV to obtain optimum performance
+* Optimised best performing Supervised Learning algorithm using GridsearchCV to obtain optimum performance
 * Built a client facing API using flask 
 * Built a client facing REST API using flask web framework
 * Deployed Model in AWS EC2 Instance  
@@ -13,7 +13,7 @@
 [**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, ipywidgets, kaggle,  pyodbc, XGBOOST, selenium, flask, json, pickle, lxml**   
 
 ## [Data Collection](Code/P11_Code.ipynb)
-Data loaded through kaggle API <br>
+Data loaded using kaggle API <br>
 ```
 !kaggle datasets download -d yasserh/bmidataset -p ..\Data --unzip 
 ```
