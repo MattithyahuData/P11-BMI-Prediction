@@ -1,7 +1,6 @@
 # 🏋 BMI Calculator: Project Overview 
 * End to end project researching the effects of BMI and its distribution in gender classes
 * Optimised best performing Supervised Learning algorithm using GridsearchCV to obtain optimum performance
-* Built a client facing API using flask 
 * Built a client facing REST API using flask web framework
 * Deployed Model in AWS EC2 Instance  
 
@@ -10,7 +9,7 @@
 ## Resources Used
 **Python 3.8, SQL Server, Power BI, PowerPoint, WinSCP, PuTTY, Ubuntu, AWS EC2** 
 
-[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, ipywidgets, kaggle,  pyodbc, XGBOOST, selenium, flask, json, pickle, lxml**   
+[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, ipywidgets, kaggle, XGBOOST, selenium, flask, json, pickle, lxml**   
 
 ## [Data Collection](Code/P11_Code.ipynb)
 Data loaded using kaggle API <br>
@@ -40,7 +39,7 @@ I warehouse all data in a SQL Server instance for later use and reference.
 
 ## [Exploratory data analysis](Code/P11_Code.ipynb) 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the analysis.
-*   I looked at the distribution of BMI by class and gender
+*   I looked at the distribution of BMI by class and . There were no outliers in the data. 
 <img src="images/bmi_distribution.png" />
 <img src="images/bmi_classdistribution.png" />
 <img src="images/bmi_genderdistribution.png" />
@@ -92,10 +91,10 @@ Using the best parameters, I improved the model accuracy by **1.25%**
 *   **Quadratic Discriminant Analysis** : Accuracy = 97.25% | MSE = 0.03 | RMSE = 0.17 (2dp)
 
 ## [Deployment](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
-I built a flask API endpoint that was hosted on a local webserver before AWS EC2 deployment. The API endpoint takes in a request value; height and weight and returns predicted BMI index. I also optimised and formatted the frontend using HTML and CSS. 
+I built a flask REST API endpoint that was hosted on a local webserver before AWS EC2 deployment. The API endpoint takes in a request value; height and weight and returns predicted BMI index. I also optimised and formatted the frontend using HTML and CSS. 
 
 ## [Model Evaluation](Code/P11_Code.ipynb)
-*   Confusion matrix showing accuracy score of test set and the 97.25% accuracy achieved by the model 
+*   A confusion matrix showing the accuracy score of 97.25% achieved by the model. 
 <img src="images/Confusionmatrix.png" />
 
 
