@@ -86,9 +86,9 @@ The Quadratic Discriminant Analysis model outperformed the other approaches on t
 
 ## [Model Optimisation and Evaluation](Code/P11_Code.ipynb)
 In this step, I used GridsearchCV to find the best parameters to optimise the performance of the model.
-Using the best parameters, I improved the model accuracy by **1.25%**
+Using the best parameters, I improved the model accuracy by **1%**
 
-*   **Quadratic Discriminant Analysis** : Accuracy = 97.25% | MSE = 0.03 | RMSE = 0.17 (2dp)
+*   **Quadratic Discriminant Analysis** : Accuracy = 97% | MSE = 0.03 | RMSE = 0.17 (2dp)
 
 ## [Deployment](http://ec2-18-168-206-39.eu-west-2.compute.amazonaws.com:8080/)
 I built a flask REST API endpoint that was hosted on a local webserver before AWS EC2 deployment. The API endpoint takes in a request value; height and weight and returns predicted BMI index. I also optimised and formatted the frontend using HTML and CSS. 
