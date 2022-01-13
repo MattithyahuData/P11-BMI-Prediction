@@ -9,7 +9,7 @@
 ## Resources Used
 **Python 3.8, SQL Server, Power BI, PowerPoint, WinSCP, PuTTY, Ubuntu, AWS EC2** 
 
-[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, ipywidgets, kaggle, XGBOOST, selenium, flask, json, pickle, lxml**   
+[**Anaconda Packages:**](requirements.txt) **pandas, numpy, pandas_profiling, ipywidgets, sklearn, matplotlib, seaborn, sqlalchemy, pyodbc, kaggle, XGBOOST, selenium, flask, json, pickle, lxml**   
 
 ## [Data Collection](Code/P11_Code.ipynb)
 Data loaded using kaggle API <br>
